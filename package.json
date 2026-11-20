@@ -1,0 +1,19 @@
+{
+  "name": "spotifake",
+  "version": "0.1.0",
+  "description": "BitRuisseau — médiathèque audio partagée en pair-à-pair (WebRTC)",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
